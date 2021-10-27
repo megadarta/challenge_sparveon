@@ -37,7 +37,7 @@ function Login(){
     <div className="container loginclass">
         <div className="log-res d-flex row justify-content-center">
             {/* button atas  */}
-            <div className="d-flex justify-content-center">
+            <div className="button-atas d-flex justify-content-center">
                 <a className="active-button btn" href="/">Login</a>
                 <a className="nonactive-button btn" href="/register">Register</a>
             </div>

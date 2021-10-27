@@ -1,0 +1,43 @@
+.navbar-home{
+    background-color: blueviolet;
+}
+
+a, a:hover, .nav-link, .nav-link:hover{
+    color: #F1F7E7;
+}
+
+.title-home-page, .text-home-page{
+    color: blueviolet;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.home-page{
+    width: 100%;
+}
+.text-home-page{
+    font-size: 20px;
+    margin-top: -2px;
+    font-weight: normal;
+}
+
+.btn-view, .btn-view:hover{
+    background-color: #F1F7E7;
+    color: blueviolet;
+    width: 100px;
+    margin-top: 50px;
+
+}
+
+#form-active{
+    display: none;
+}
+
+.form-detail-user{
+    margin-top: 50px;
+    width: 50%;
+    margin-bottom: 50px;
+}

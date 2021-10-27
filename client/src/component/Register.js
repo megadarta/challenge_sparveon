@@ -41,7 +41,7 @@ function Register(){
     <div className="container loginclass">
         <div className="log-res d-flex row justify-content-center">
             {/* button atas  */}
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center button-atas">
                 <a className="nonactive-button btn" href="/">Login</a>
                 <a className="active-button btn" href="/register">Register</a>
             </div>
@@ -55,7 +55,7 @@ function Register(){
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputUser" class="form-label">Username</label>
-                    <input onChange={e => setUsername(e.target.value)} type="text" class="form-control" id="exampleInputUser" aria-describedby="userHelp" placeholder="Input USername"></input>
+                    <input onChange={e => setUsername(e.target.value)} type="text" class="form-control" id="exampleInputUser" aria-describedby="userHelp" placeholder="Input Username"></input>
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Password</label>

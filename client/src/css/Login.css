@@ -1,0 +1,37 @@
+.loginclass{
+    margin-top: 150px;
+    width: 30%;
+    /* font-family: poppins; */
+}
+
+.form-login{
+    border: 1px solid grey;
+}
+
+.button-atas{
+    padding: 0px!important;
+}
+
+.active-button, .active-button:hover{
+    background-color: blueviolet;
+    color: #F1F7E7;
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 0px;
+    padding-top: 10px;
+}
+.nonactive-button, .nonactive-button:hover{
+    background-color: #F1F7E7;
+    font-weight: bold;
+    color: blueviolet;
+    height: 50px;
+    width: 100%;
+    border-radius: 0px;
+    padding-top: 10px;
+}
+
+.btn-login, .btn-login:hover{
+    background-color: blueviolet;
+    color: #F1F7E7;
+}
